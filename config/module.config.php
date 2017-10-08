@@ -1,20 +1,23 @@
 <?php
 /**
-работа с просто страницами
+помощник вывода СЕО из таблицы seolist
+*используется для вывода СЕО на страницах с разными списками, например, новостей
  */
 
 namespace Seolist;
 
 
-
-
 return [
 
-	'service_manager' => [
-			'factories' => [//сервисы-фабрики
-				Service\Statpage::class => Service\Factory\StatpageFactory::class,
-				Service\GetControllersInfo::class => Service\Factory\GetControllersInfoFactory::class,
-			],
-		],
+    'view_helpers' => [
+        'factories' => [
+            View\Helper\Seolist::class => View\Helper\Factory\Seolist::class,
+        ],
+        'aliases' => [
+            'Seolist' => View\Helper\Seolist::class,
+			'seolist' => View\Helper\Seolist::class,
+			
+        ],
+    ],
 
 ];
