@@ -3,7 +3,7 @@
 сервис генерации СЕО тегов для вывода разных списков, например, статей
  */
 
-namespace Seolist;
+namespace Mf\Seolist;
 
 class Module
 {
