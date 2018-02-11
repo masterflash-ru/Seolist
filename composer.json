@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Seolist\\": "src/"
+            "Mf\\Seolist\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Seolist\\": "src/"
+            "Mf\\Seolist\\": "src/"
         }
     },
     "extra": {
@@ -31,7 +31,7 @@
         },
         "zf": {
             "component": "Seolist",
-            "config-provider": "masterflash-ru\\Seolist\\ConfigProvider"
+            "config-provider": "masterflash-ru\\Mf\\Seolist\\ConfigProvider"
         }
     }
 }
