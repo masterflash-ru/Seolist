@@ -30,7 +30,7 @@
             "dev-develop": "1.1-dev"
         },
         "zf": {
-            "component": "Seolist",
+            "component": "Mf\\Seolist",
             "config-provider": "masterflash-ru\\Mf\\Seolist\\ConfigProvider"
         }
     }
