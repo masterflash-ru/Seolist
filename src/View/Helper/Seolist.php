@@ -4,7 +4,7 @@
 
 */
 
-namespace Seolist\View\Helper;
+namespace Mf\Seolist\View\Helper;
 
 use Zend\View\Helper\AbstractHelper;
 use ADO\Service\RecordSet;

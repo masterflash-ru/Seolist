@@ -32,7 +32,7 @@ INSERT INTO `design_tables_text_interfase` (`language`, `table_type`, `interface
 
 INSERT INTO `design_tables` (`interface_name`, `table_name`, `table_type`, `col_name`, `caption_style`, `row_type`, `col_por`, `pole_spisok_sql`, `pole_global_const`, `pole_prop`, `pole_type`, `pole_style`, `pole_name`, `default_sql`, `functions_befo`, `functions_after`, `functions_befo_out`, `functions_befo_del`, `properties`, `value`, `validator`, `sort_item_flag`, `col_function_array`) VALUES 
   ('seolist', 'seolist', 0, '', '', 0, 0, 'select * from seolist where locale=''$pole_dop0''', '20', '1,1,0,0', 'seolist', '0', 'id', 'delete from seolist  where id=$id', '', '', '', '', '', 0x613A323A7B733A32343A22666F726D5F656C656D656E74735F6E65775F7265636F7264223B733A313A2230223B733A32343A22666F726D5F656C656D656E74735F6A6D705F7265636F7264223B733A313A2230223B7D, 'seolist', 1, ''),
-  ('seolist', 'seolist', 0, '', '', 1, 0, '', '', 'onChange=this.form.submit()', '4', '', '', '', '', '', '\\Seolist\\Lib\\Func\\GetLocales', '', 'a:2:{i:0;s:1:\"0\";i:1;s:1:\"0\";}', '', '', 0, ''),
+  ('seolist', 'seolist', 0, '', '', 1, 0, '', '', 'onChange=this.form.submit()', '4', '', '', '', '', '', '\\Mf\\Seolist\\Lib\\Func\\GetLocales', '', 'a:2:{i:0;s:1:\"0\";i:1;s:1:\"0\";}', '', '', 0, ''),
   ('seolist', 'seolist', 0, 'title', '', 2, 3, '', '', 'cols=40 rows=4', '3', '', 'title', '', '', '', '', '', 'N;', '', 'N;', 0, 'N;'),
   ('seolist', 'seolist', 0, 'title', '', 3, 0, '', '', 'cols=40 rows=4', '3', '2', 'title', '', '', '', '', '', '', '', '', 0, ''),
   ('seolist', 'seolist', 0, 'keywords', '', 2, 4, '', '', 'cols=40 rows=4', '3', '', 'keywords', '', '', '', '', '', 'N;', '', 'N;', 0, 'N;'),

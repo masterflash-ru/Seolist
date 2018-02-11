@@ -4,7 +4,7 @@
 *используется для вывода СЕО на страницах с разными списками, например, новостей
  */
 
-namespace Seolist;
+namespace Mf\Seolist;
 
 
 return [

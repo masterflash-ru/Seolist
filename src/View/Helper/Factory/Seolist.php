@@ -1,5 +1,5 @@
 <?php
-namespace Seolist\View\Helper\Factory;
+namespace Mf\Seolist\View\Helper\Factory;
 
 use Interop\Container\ContainerInterface;
 use Zend\ServiceManager\Factory\FactoryInterface;

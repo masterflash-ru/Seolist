@@ -1,5 +1,5 @@
 <?php
-namespace Seolist\Lib\Func;
+namespace Mf\Seolist\Lib\Func;
 
 class GetLocales
 {
