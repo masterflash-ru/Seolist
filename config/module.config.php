@@ -15,9 +15,7 @@ return [
         ],
         'aliases' => [
             'Seolist' => View\Helper\Seolist::class,
-			'seolist' => View\Helper\Seolist::class,
-			
+            'seolist' => View\Helper\Seolist::class,
         ],
     ],
-
 ];
