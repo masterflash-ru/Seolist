@@ -20,5 +20,9 @@ return [
             'seolist' => View\Helper\Seolist::class,
         ],
     ],
+    /*сетка для админки*/
+    "interface"=>[
+        "seolist"=>__DIR__."/admin.seolist.php",
+    ],
 
 ];
