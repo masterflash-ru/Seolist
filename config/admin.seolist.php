@@ -27,8 +27,8 @@ return [
             /*редактирование*/
             "edit"=>[
                 "cache" =>[
-                    "tags"=>["seolist"],
-                    "keys"=>["seolist"],
+                    "tags"=>["seolist","Seolist"],
+                    "keys"=>["seolist","Seolist"],
                 ],
 
                 "db"=>[//плагин выборки из базы
@@ -46,8 +46,8 @@ return [
             //удаление записи
             "del"=>[
                 "cache" =>[
-                    "tags"=>["seolist"],
-                    "keys"=>["seolist"],
+                    "tags"=>["seolist","Seolist"],
+                    "keys"=>["seolist","Seolist"],
                 ],
                 "db"=>[//плагин выборки из базы
                     "sql"=>"select * from seolist",
