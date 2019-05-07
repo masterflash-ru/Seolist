@@ -24,5 +24,11 @@ return [
     "interface"=>[
         "seolist"=>__DIR__."/admin.seolist.php",
     ],
+    /*доступ к панели управления*/
+    "permission"=>[
+        "objects" =>[
+            "interface/seolist" => [1,1,0760],
+        ],
+    ],
 
 ];
