@@ -1,7 +1,7 @@
 <?php
 namespace Mf\Seolist\View\Helper\Factory;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**
