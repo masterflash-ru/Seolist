@@ -6,8 +6,8 @@
 
 namespace Mf\Seolist;
 
-use Zend\Cache\Storage\Plugin\Serializer;
-use Zend\Cache\Storage\Adapter\Filesystem;
+use Laminas\Cache\Storage\Plugin\Serializer;
+use Laminas\Cache\Storage\Adapter\Filesystem;
 
 return [
 

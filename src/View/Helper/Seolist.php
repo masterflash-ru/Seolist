@@ -6,7 +6,7 @@
 
 namespace Mf\Seolist\View\Helper;
 
-use Zend\View\Helper\AbstractHelper;
+use Laminas\View\Helper\AbstractHelper;
 use ADO\Service\RecordSet;
 
 

@@ -4,7 +4,7 @@ namespace Mf\Seolist;
 
 use Mf\Migrations\AbstractMigration;
 use Mf\Migrations\MigrationInterface;
-use Zend\Db\Sql\Ddl;
+use Laminas\Db\Sql\Ddl;
 
 class Version20191104162943 extends AbstractMigration implements MigrationInterface
 {
